@@ -20,11 +20,4 @@ export class ProductsService {
     const products = await this.productModel.find();
     return products;
   }
-  // getproduct(id: string) {
-  //   const product = this.products.find((product) => product.id === id);
-  //   if (!product) {
-  //     throw new NotFoundException('Product Not Found');
-  //   }
-  //   return { ...product };
-  // }
 }
